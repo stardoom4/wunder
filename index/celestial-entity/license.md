@@ -3,7 +3,7 @@ title: License
 ---
 <p>Text in this site is available under public domain.</p>
 <table>
-  <th>Description of Public License</th>
+  <th>Description of Public Domain License</th>
   <td>
     No Copyright:
 
