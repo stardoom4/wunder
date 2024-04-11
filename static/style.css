@@ -192,13 +192,13 @@ blockquote>p {
   color: white;
   background: black;
   padding: 0.5em 10px;
-  font-family: monospace;
+  font-family: italic;
   font-size: 15px;
 }
 
 blockquote::selection {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
