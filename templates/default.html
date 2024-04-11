@@ -2,7 +2,7 @@
   <head>
     {{ template "head.html" . }}
   </head>
-  <title>Lyceum &#151 {{ index .Meta "title" }}</title>
+  <title>{{ index .Meta "title" }}</title>
   <body>
     {{ template "nav.html" . }}
     <main>{{ .Body }}</main>
