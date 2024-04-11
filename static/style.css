@@ -1,11 +1,11 @@
 :root {
-  font-family: 'Inter', sans-serif;
+  font-family: serif;
   background-color: #000000;
 }
 
 @supports (font-variation-settings: normal) {
   :root {
-    font-family: 'Inter', sans-serif;
+    font-family: serif;
   }
 }
 
@@ -68,8 +68,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -123,15 +123,15 @@ main a {
 
 main a:hover,
 ::selection {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
 main a strong:hover,
 ::selection {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -152,7 +152,7 @@ main svg {
 
 main pre {
   overflow: auto;
-  background: #efefef;
+  background: #000;
   padding: 10px;
   font-size: 80%;
   margin-bottom: 20px;
