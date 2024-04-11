@@ -1,5 +1,6 @@
 :root {
   font-family: 'Inter', sans-serif;
+  background-color: #000000;
 }
 
 @supports (font-variation-settings: normal) {
@@ -13,7 +14,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
 }
 
 body {
