@@ -190,7 +190,7 @@ footer>* {
   margin-right: 5px;
 }
 
-blockquote {
+blockquote>p {
   color: white;
   background: black;
   padding: 0.5em 10px;
