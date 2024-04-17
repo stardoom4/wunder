@@ -1,5 +1,5 @@
 ---
-title: Celestial-Entity
+title: Wunder
 subtitle: Welcome to my Digital Home.
 created: 2024-04-11
 ---
