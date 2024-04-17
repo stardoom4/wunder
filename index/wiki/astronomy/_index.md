@@ -1,7 +1,4 @@
 ---
 title: Astronomy Wiki
-subtitle: Wiki
 ---
-## Astronomy Wiki
-- [Active Nucleus Galaxy](Active-Nucleus-Galaxy.html)
-- [Big Bang](big-bang.html)
+<figure><img src="https://raw.githubusercontent.com/stardoom4/imagesce40/main/lyceum/Drawing.png" alt="Drawing"></figure>
