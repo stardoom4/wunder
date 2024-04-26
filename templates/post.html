@@ -1,0 +1,8 @@
+<section id="{{ datetime | datetime-to-slug }}">
+<h2><strong>{{ text | lines | head }}</strong></h2>
+
+{{ text | lines | tail | paragraphs | join-lines }}
+<a href="/{{ filename }}/">
+    <time datetime="{{ datetime }}">{{ datetime | friendly-datetime }}</time>
+</a>
+</section>
