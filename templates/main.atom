@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ site_name }}</title>
+  <link href="{{ root_url }}/"/>
+  <updated>{{ posts | first | dict-get-dt | atom-datetime }}</updated>
+  <author>
+    <name>CelestialEntity</name>
+  </author>
+  <id>https://garud.netlify.app/</id>
+
+  {{ posts | atomize-each | join-lines }}
+</feed>
