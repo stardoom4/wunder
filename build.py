@@ -147,7 +147,7 @@ variables = {
 posts = [{"filename": p.stem, "datetime": p.stem.replace(".", ":").replace("_", " "), "text": p.read_text()} for p in Path("posts").glob("*.html")]
 posts = sorted(posts, key=lambda x: x["datetime"], reverse=True)
 
-site = Path("_site")
+site = Path("build")
 site.mkdir(exist_ok=True)
 
 for post in posts:
