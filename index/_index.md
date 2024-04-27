@@ -10,7 +10,7 @@ created: 2024-04-11
     [Rei smiles]</p>
 <details>
     <summary>Online Presence</summary>
-    <a href="https://garud.netlify.app">Website</a>
-    <a href="https://github.com/stardoom4">Github</a>
-    <a hrerf="htps://letterboxd.com/Celestialentity/">LetterBoxd</a>
+    <a href="https://garud.netlify.app">Website</a><br>
+    <a href="https://github.com/stardoom4">Github</a><br>
+    <a href="htps://letterboxd.com/Celestialentity/">LetterBoxd</a>
 </details>
