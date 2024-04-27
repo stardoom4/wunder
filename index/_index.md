@@ -8,3 +8,9 @@ created: 2024-04-11
     <strong>Rei Ayanami </strong>: Why are you crying? I’m very sorry I don’t know what I should do or feel at a time like this.<br>
     <strong>Shinji Ikari</strong>: Why don’t you just try smiling?
     [Rei smiles]</p>
+<details>
+    <summary>Online Presence</summary>
+    <a href="https://garud.netlify.app">Website</a>
+    <a href="https://github.com/stardoom4">Github</a>
+    <a hrerf="htps://letterboxd.com/Celestialentity/">LetterBoxd</a>
+</details>
