@@ -1,0 +1,4 @@
+---
+title: Wunder
+---
+<p>Wunder is a personal <a src="wiki.html">Wiki</a> and the Personal Website of Celestial-Entity which is used to store important text and details about my interest.<br>Wunder means Miracle in German. I dont have a very specific reason for why I named This wiki Wunder but I do like how the word sounds. I originally found this word in the Rebuilds of The great Anime "Neon Genesis Evangelion".<br></p><q>AAA Wunder (Autonomous Assault Ark Wunder) (AAAヴンダー), is WILLE's main aerial battleship from the Rebuild of Evangelion film series. It is a giant, winged, flying ship that serves as main base of operations to Captain Misato Katsuragi and her crew. "Wunder" is pronounced "Vuhn-der".</q><p>This wiki was built using the fork of <a src="https://github.com/awalvie/lyceum">Lyceum</a> which was built using Go-Blender written in C.</p>
