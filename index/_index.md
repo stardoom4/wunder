@@ -2,6 +2,7 @@
 title: Wunder
 subtitle: Welcome to my Digital Home.
 created: 2024-04-11
+share: true
 ---
 <figure><img src="https://i.pinimg.com/564x/0f/17/30/0f17306aac1161a8c4438249f94bbcf8.jpg" alt="Monotone"></figure>
 <p><strong>Shinji Ikari</strong>: Ayanami! Are you all right? Ayanami! …Don’t ever say that! Just don’t say that you have nothing else! Just don’t say that! And don’t say goodbye when you leave for a mission, it’s just too sad. [sobs quietly]<br>
