@@ -1,7 +1,7 @@
 ---
 share: true
 title: Eternal Loop
-path: celestial-entity/internet/lyrics
+path: /celestial-entity/internet/lyrics
 ---
 # Eternal Loop 
 ## By: Saber Tiger
