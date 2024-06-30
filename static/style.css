@@ -1,6 +1,6 @@
 :root {
-  font-family: serif;
-  background-color: #000000;
+  font-family: serif !important;
+  background-color: #000000 !important;
 }
 
 @supports (font-variation-settings: normal) {
@@ -35,12 +35,12 @@ table th {
   vertical-align: top;
   padding: 2.5px 5px;
   text-align: left;
-  border: 1px solid
+  border: 1px solid;
 }
 
 table td>pre,
 table th>pre {
-  border: 1px solid
+  border: 1px solid;
   background: none;
   padding: 0;
   margin: 0;
@@ -70,8 +70,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: #fff;
-  color: #000;
+  background: #fff !important;
+  color: #000 !important;
   text-decoration: none;
 }
 
@@ -125,15 +125,15 @@ main a {
 
 main a:hover,
 ::selection {
-  background-color: #fff;
-  color: #000;
+  background-color: #fff !important;
+  color: #000 !important;
   text-decoration: none;
 }
 
 main a strong:hover,
 ::selection {
-  background-color: #fff;
-  color: #000;
+  background-color: #fff !important;
+  color: #000 !important;
   text-decoration: none;
 }
 
@@ -154,7 +154,7 @@ main svg {
 
 main pre {
   overflow: auto;
-  background: #000;
+  background: #000 !important;
   padding: 10px;
   font-size: 80%;
   margin-bottom: 20px;
@@ -199,8 +199,8 @@ blockquote>p {
 }
 
 blockquote::selection {
-  background-color: #000;
-  color: #fff;
+  background-color: #000 !important;
+  color: #fff !important;
   text-decoration: none;
 }
 
@@ -223,5 +223,5 @@ main>ul li {
   margin: 0;
 }
 input[type=text] {
-  font-color: #000;
+  font-color: #000 !important;
 }
