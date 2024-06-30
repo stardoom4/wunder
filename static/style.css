@@ -1,6 +1,6 @@
 :root {
   font-family: serif !important;
-  background-color: #000000 !important;
+  background-color: #000000 !default;
 }
 
 @supports (font-variation-settings: normal) {
