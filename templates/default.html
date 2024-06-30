@@ -8,5 +8,11 @@
     {{ template "nav.html" . }}
     <main>{{ .Body }}</main>
     <footer>{{ template "footer.html" }}</footer>
+    <script>
+const theme = new Theme();
+theme.install(document.body);
+theme.start();
+theme.onLoad = callback
+    </script>
   </body>
 </html>
