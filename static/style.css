@@ -1,6 +1,6 @@
 :root {
   font-family: serif;
-  background-color: var(--background) !important;
+  background-color: black !important;
 }
 
 @supports (font-variation-settings: normal) {
@@ -71,7 +71,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background: #fff !important;
-  color: var(--background) !important;
+  color: black !important;
   text-decoration: none;
 }
 
