@@ -7,7 +7,7 @@ share: true
 <figure><img src="static/site/home.webp" alt="Monotone"></figure>
 <strong>Recent Changes</strong>
 <ol>
-    <li>Added <a href="https://github.com/hundredrabbits/Themes">100r ecosystem theme support.</a></li>
+    <li>Added <a href="https://github.com/hundredrabbits/Themes">100r ecosystem theme</a> support.</li>
 </ol>
 <details>
     <summary>Online Presence</summary>
