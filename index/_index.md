@@ -7,7 +7,8 @@ share: true
 <figure><img src="static/site/home.webp" alt="Monotone"></figure>
 <strong>Recent Changes</strong>
 <ol>
-    <li>Added <a href="https://github.com/hundredrabbits/Themes">100r ecosystem theme</a> support.</li>
+    <li>03-07-2024: Started <a href="exodon.html">World Building</a></li>
+    <li>30-06-2024: Added <a href="https://github.com/hundredrabbits/Themes">100r ecosystem theme</a> support.</li>
 </ol>
 <details>
     <summary>Online Presence</summary>
