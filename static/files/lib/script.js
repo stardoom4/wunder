@@ -13,3 +13,4 @@ var clock = setInterval(function(){
     seconds.style.transform = "translateY(-50%) rotate("+s_+"deg) ";
 
 }, 1000);
+console.log("Hello There")
