@@ -17,3 +17,6 @@ share: true
     <a href="https://github.com/stardoom4">Github</a><br>
     <a href="https://letterboxd.com/Celestialentity/">LetterBoxd</a>
 </details>
+<h3>Webring</h3>
+<a href='https://webring.dinhe.net/prev/https://wunder.pages.dev'>Previous</a>
+<a href='https://webring.dinhe.net/next/https://wunder.pages.dev'>Next</a>
