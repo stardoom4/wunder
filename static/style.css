@@ -94,6 +94,12 @@ main figure figcaption {
   max-width: 400px;
 }
 
+main h1 {
+ font-family: 'Tolkien', sans-serif;
+ color: var(--f_high);
+ max-width: 400px;
+}
+
 main h2 {
   max-width: 400px;
   font-style: italic;
@@ -180,8 +186,8 @@ blockquote>p {
   color: white;
   background: black;
   padding: 0.5em 10px;
-  font-family: italic;
-  font-size: 15px;
+  font-family: 'Tolkien', sans-serif;                              
+  font-size: 16px;
 }
 
 blockquote::selection {
