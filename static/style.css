@@ -101,6 +101,7 @@ main h1 {
 }
 
 main h2 {
+  font-family: 'Tolkien', sans-serif;
   max-width: 400px;
   font-style: italic;
   color: var(--f_high);
