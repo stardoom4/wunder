@@ -1,103 +1,193 @@
- /* General page styling */
-        body {
-            background-color: #000000;
-            color: #FFFFFF;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+            :root {
+                --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
+                --body-bg-image: url('https://sadhost.neocities.org/images/tiles/purplesky.gif');
 
-        /* Header styling */
-        .header {
-            width: 100%;
-            padding: 15px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #444;
-        }
-        
-        .header h1 {
-            font-size: 14px;
-            color: #FFFFFF;
-            font-weight: normal;
-            margin: 0;
-        }
-        
-        /* Logo and menu button */
-        .header-logo {
-            font-size: 24px;
-            letter-spacing: 5px;
-        }
-        
-        /* Main container */
-        .container {
-            display: flex;
-            flex-direction: row;
-            width: 80%;
-            max-width: 1200px;
-            padding: 40px 0;
-        }
-
-        /* Sidebar styling */
-        .sidebar {
-            width: 25%;
-            display: flex;
-            flex-direction: column;
-            font-size: 14px;
-            margin-right: 20px;
-        }
-
-        .sidebar h2 {
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .sidebar a {
-            color: #FFFFFF;
-            text-decoration: none;
-            margin: 5px 0;
-        }
-
-        .sidebar a:hover {
-            text-decoration: underline;
-        }
-
-        /* Content styling */
-        .content {
-            width: 70%;
-        }
-
-        h2 {
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            color: #CCCCCC;
-        }
-
-        /* Responsive styling for smaller screens */
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                align-items: center;
+                /* colors */
+                --content: #43256E;
             }
 
-            .sidebar {
+            body {
+                font-family: Sans-Serif;
+                margin: 0;
+                background-color: #000;
+                color: #fff;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            /* below this line is CSS for the layout */
+
+            /* this is a CSS comment
+    to uncomment a line of CSS, remove the * and the /
+    before and after the text */
+
+
+            /* the "container" is what wraps your entire website */
+            /* if you want something (like the header) to be Wider than
+    the other elements, you will need to move that div outside
+    of the container */
+            #container {
+                max-width: 100%;
+                /* this is the width of your layout! */
+                /* if you change the above value, scroll to the bottom
+      and change the media query according to the comment! */
+                margin: 0 auto;
+                /* this centers the entire page */
+            }
+
+            /* the area below is for all links on your page
+    EXCEPT for the navigation */
+            #container a {
+                color: #fff;
+                font-weight: bold;
+                /* if you want to remove the underline
+      you can add a line below here that says:
+      text-decoration:none; */
+            }
+
+            #header {
                 width: 100%;
-                margin-right: 0;
-                margin-bottom: 20px;
+                background-color: #000;
+                /* header color here! */
+                height: 150px;
+                /* this is only for a background image! */
+                /* if you want to put images IN the header, 
+      you can add them directly to the <div id="header"></div> element! */
+                background-image: var(--header-image);
+                background-size: 100%;
             }
 
-            .content {
+            /* navigation section!! */
+            #navbar {
+                height: 40px;
+                background-color: #fff;
+                /* navbar color */
                 width: 100%;
             }
-        }
+
+            #navbar ul {
+                display: flex;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+
+            #navbar li {
+                padding-top: 10px;
+            }
+
+            /* navigation links*/
+            #navbar li a {
+                color: #000;
+                /* navbar text color */
+                font-weight: 800;
+                text-decoration: none;
+                /* this removes the underline */
+            }
+
+            /* navigation link when a link is hovered over */
+            #navbar li a:hover {
+                color: #a49cba;
+                text-decoration: underline;
+            }
+
+            #flex {
+                display: flex;
+            }
+
+            /* this colors BOTH sidebars
+    if you want to style them separately,
+    create styles for #leftSidebar and #rightSidebar */
+            aside {
+                background-color: #000;
+                width: 340px;
+                padding: 20px;
+                font-size: 18px;
+                /* this makes the sidebar text slightly smaller */
+            }
+
+
+            /* this is the color of the main content area,
+    between the sidebars! */
+            main {
+                background-color: #000;
+                flex: 1;
+                padding: 20px;
+                order: 2;
+                font-size: 18px;
+            }
+
+            /* what's this "order" stuff about??
+    allow me to explain!
+    if you're using both sidebars, the "order" value
+    tells the CSS the order in which to display them.
+    left sidebar is 1, content is 2, and right sidebar is 3! */
+
+            */ #leftSidebar {
+                order: 1;
+            }
+
+            footer {
+                background-color: #fff;
+                /* background color for footer */
+                width: 100%;
+                height: 60px;
+                padding: 20px;
+                text-align: center;
+                color: #000;
+                /* this centers the footer text */
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: #fff;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            strong {
+                /* this styles bold text */
+                color: #fff;
+            }
+
+            /* this is just a cool box, it's the darker colored one */
+            .box {
+                background-color: #fff;
+                border: 1px solid #000;
+                color: #000;
+                padding: 10px;
+            }
+
+
+            @media only screen and (max-width: 800px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                /* the order of the items is adjusted here for responsiveness!
+      since the sidebars would be too small on a mobile device.
+      feel free to play around with the order!
+      */
+                main {
+                    order: 2;
+                }
+
+                #leftSidebar {
+                    order: 1;
+                }
+
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
