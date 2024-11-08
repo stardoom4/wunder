@@ -4,20 +4,15 @@
     {{ template "head.html" . }}
     <title>{{ index .Meta "title" }}</title>
   </head>
-   <div class="header">
-        <h1>{{ index .Meta "title" }}</h1>
-        <div class="header-logo">LOGO</div>
-    </div>
   <body>
-      <div class="container">
-        <!-- Sidebar -->
-        <div class="sidebar">
-    {{ template "nav.html" . }}
-        </div>
-             <div class="content">
+ <div id="container">
+ <div id="flex">
+                <aside id="leftSidebar">
+                  {{ template "nav.html" . }}
+                  </aside>
     <main>{{ .Body }}</main>
-             </div></div>
-    <footer>{{ template "footer.html" }}</footer>
+ </div>
+    <footer id="footer">{{ template "footer.html" }}</footer>
 
     <script>
 const theme = new Theme();
