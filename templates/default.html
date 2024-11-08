@@ -4,28 +4,21 @@
     {{ template "head.html" . }}
     <title>{{ index .Meta "title" }}</title>
   </head>
-  <title>{{ index .Meta "title" }}</title>
-  <body>
-    {{ template "nav.html" . }}
-    <main>{{ .Body }}</main>
-    <div class="music-capsule" id="musicCapsule">
-      <span class="button-label" id="buttonLabel">Music</span>
-        <!-- Display the current track title (Initially hidden) -->
-        <div class="music-title" id="musicTitle">Loading...</div>
-
-        <!-- YouTube player hidden -->
-        <div id="player"></div>
-
-        <!-- Playback controls (Initially hidden) -->
-        <div class="controls" id="controls">
-            <button id="prevButton">Prev</button>
-            <button id="playButton">Play</button>
-            <button id="pauseButton">Pause</button>
-            <button id="nextButton">Next</button>
-        </div>
+   <div class="header">
+        <h1>{{ index .Meta "title" }}</h1>
+        <div class="header-logo">LOGO</div>
     </div>
+  <body>
+      <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+    {{ template "nav.html" . }}
+        </div>
+             <div class="content">
+    <main>{{ .Body }}</main>
+             </div></div>
     <footer>{{ template "footer.html" }}</footer>
-    <script src="https://www.youtube.com/iframe_api"></script>
+
     <script>
 const theme = new Theme();
 theme.install(document.body);
