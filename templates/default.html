@@ -5,15 +5,24 @@
     <title>{{ index .Meta "title" }}</title>
   </head>
   <body>
- <div id="container">
- <div id="flex">
-                <aside id="leftSidebar">
+ <nav class="navbar">
+        <img src="https://via.placeholder.com/100x50?text=Logo" alt="Logo" class="logo">
+    </nav>
+
+    <header class="header-image" role="img" aria-label="Decorative header image"></header>
+
+    <div class="content">
+        <aside class="sidebar">
+            <h2>Sidebar</h2>
                   {{ template "nav.html" . }}
                   </aside>
-    <main>{{ .Body }}</main>
- </div>
-    <footer id="footer">{{ template "footer.html" }}</footer>
-
+      <main class="main">
+   {{ .Body }}
+      </main>
+</div>
+<footer class="footer">
+        <p>Hello There!</p>
+    </footer>
     <script>
 const theme = new Theme();
 theme.install(document.body);
