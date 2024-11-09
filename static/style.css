@@ -101,7 +101,7 @@
             .sidebar, .main {
                 padding: 0.5rem;
             }
-            figure>img {
+            img {
                 width: 100%;
                 height: auto;
                 background-size: cover;
