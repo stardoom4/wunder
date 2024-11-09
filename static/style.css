@@ -24,7 +24,7 @@
         .header-image {
             width: 100%;
             height: 320px;
-            background-image: url('https://static.wikia.nocookie.net/galaxystarsupermiraclenight/images/f/fb/Ramiel.png/');
+            background-image: url('https://redesign.wunder.pages.dev/static/site/home.webp');
             background-size: cover;
             background-position: center;
         }
@@ -121,7 +121,6 @@
         @media (max-width: 768px) {
             .content {
                 flex-direction: column;
-                width: 100%;
             }
 
             .sidebar {
