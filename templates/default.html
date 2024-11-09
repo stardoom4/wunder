@@ -14,15 +14,17 @@
 
     <div class="content">
         <aside class="sidebar">
-            <h2>Sidebar</h2>
                   {{ template "nav.html" . }}
                   </aside>
+      <hr>
       <div class="main-content">
       <main class="main">
    {{ .Body }}
       </main>
          <nav class="two-column-navbar" aria-label="Secondary Navigation">
                 <div class="navbar-column">
+                  <h3>Current</h3>
+                  <hr>
     {{ if .Nav.Current }} {{ if lt ( len .Nav.Current ) 7 }}<ul>
     {{ range $_, $element := .Nav.Current }}
     <li><a href="{{ $element.Href }}">{{ $element.Name }}</a></li>
@@ -31,6 +33,7 @@
 </div>
            <div class="navbar-column">
              <h3>Child</h3>
+             <hr>
     {{ if .Nav.Child }} {{ if lt ( len .Nav.Child ) 7 }}<ul>
     {{ range $_, $element := .Nav.Child }}
     <li><a href="{{ $element.Href }}">{{ $element.Name }}</a></li>
