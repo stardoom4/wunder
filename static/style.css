@@ -76,6 +76,42 @@
            height: auto;
        }
 
+              .two-column-navbar {
+            display: flex;
+            background-color: #e9ecef;
+            padding: 1rem;
+        }
+
+        .navbar-column {
+            flex: 1;
+            padding: 0 1rem;
+        }
+
+        .navbar-column h3 {
+            margin-top: 0;
+        }
+
+        .navbar-column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .navbar-column ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .navbar-column a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-column a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+
         @media (max-width: 768px) {
             .content {
                 flex-direction: column;
@@ -106,4 +142,13 @@
                 height: auto;
                 background-size: cover;
                 background-position: center;
+            }
+           .two-column-navbar {
+                flex-direction: column;
+            }
+
+           .navbar-column {
+                padding: 0;
+                margin-bottom: 1rem;
+            }
         }
