@@ -1,6 +1,6 @@
 ---
 title: Wunder
-subtitle: Welcome to my Digital Home.
+desc: <a href="wunder.html>Wunder</a> is a Wiki system to records things.
 created: 2024-04-11
 share: true
 ---
