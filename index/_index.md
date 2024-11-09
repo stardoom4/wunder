@@ -4,7 +4,6 @@ desc: <a href="wunder.html">Wunder</a> is a Wiki system to records things.
 created: 2024-04-11
 share: true
 ---
-<img src="static/site/home.webp" alt="Monotone">
 <strong>Recent Changes</strong>
 <ol>
     <li><strong>View all logs <a href="/logs.html">Here</a></strong></li>
