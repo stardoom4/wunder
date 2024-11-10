@@ -1,7 +1,8 @@
 ---
 title: Wordbuilding
+himg: https://github.com/user-attachments/assets/73e1fdea-6a40-4dc3-b3d7-062fd9e93c8b
+desc: I sometimes make fictional stories in my mind.
 ---
-<figure><img src="static/images/map.png"></figure>
 <h2>Exodon is a Imaginary Planet in my Mind.</h2>
 <p>Exodon is a habitable planet in the Exod System revolving arounding the star Ares.</p>
 There are 8 cities in the planet 4 in southern and 4 in northern hemisphere.  All of them were built by The Ancient race who left the planet for unknown reasons.
