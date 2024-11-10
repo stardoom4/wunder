@@ -1,6 +1,7 @@
 ---
 title: Wunder
 desc: <a href="wunder.html">Wunder</a> is a Wiki system to records things.
+himg: https://redesign.wunder.pages.dev/static/site/home.webp
 created: 2024-04-11
 share: true
 ---
