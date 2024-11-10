@@ -1,6 +1,6 @@
 ---
 title: Wordbuilding
-himg: https://github.com/user-attachments/assets/73e1fdea-6a40-4dc3-b3d7-062fd9e93c8b
+himg: https://wunder.pages.dev/static/images/map.png
 desc: I sometimes make fictional stories in my mind.
 ---
 <h2>Exodon is a Imaginary Planet in my Mind.</h2>
