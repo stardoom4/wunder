@@ -69,7 +69,8 @@
         .main {
             flex: 1;
             padding: 1rem;
-            line-height: 1.344;
+            line-height: 1.49;
+            word-spacing: 1px;
         }
 
         .footer {
