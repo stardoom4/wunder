@@ -30,6 +30,20 @@
             background-position: center;
         }
 
+        .cover-image-container {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .cover-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center right;
+        }
+
         .content {
             display: flex;
             flex: 1;
@@ -157,6 +171,9 @@
                 flex-direction: column;
             }
 
+           .cover-image-container {
+                height: 200px;
+            }
            .navbar-column {
                 padding: 0;
                 margin-bottom: 1rem;
