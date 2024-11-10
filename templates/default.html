@@ -5,13 +5,14 @@
     <title>{{ index .Meta "title" }}</title>
   </head>
   <body>
- <nav class="navbar">
-  <a href="index.html"
-    ><img src="static/site/Trigon.jpg" alt="SpaceMan" height="60px" width="60px" alt="Logo" class="logo"></a>
-    </nav>
 
     <header class="header-image" style="background-image: url('{{ index .Meta "himg" }}');" role="img" aria-label="Wunder"></header>
 
+    <nav class="navbar">
+  <a href="index.html"
+    ><img src="static/site/Trigon.jpg" alt="SpaceMan" height="60px" width="60px" alt="Logo" class="logo"></a>
+    </nav>
+    
     <div class="content">
         <aside class="sidebar">
           <h2>{{ index .Meta "desc" }}</h2><hr>
