@@ -28,6 +28,7 @@
             height: 320px;
             background-size: cover;
             background-position: center;
+            background-image: url("https://wunder.pages.dev/static/site/home.webp");
         }
 
         .cover-image-container {
