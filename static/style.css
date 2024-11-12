@@ -29,6 +29,7 @@
             background-size: cover;
             background-position: center;
             background-image: url("https://wunder.pages.dev/static/site/home.webp");
+            filter: grayscale(100%);
         }
 
         .cover-image-container {
