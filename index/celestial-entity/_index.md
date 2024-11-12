@@ -1,7 +1,7 @@
 ---
 title: Celestial Entity
 desc: I am Celestial Entity
-himg: https://wallpapers.com/images/file/russian-figure-skating-star-kamila-valieva-at-2022-olympics-v5i4w0oy6ondalng.jpg
+himg: https://cdn.wallpapersafari.com/38/0/waMlKh.jpg
 ---
 <p>I am Studying science and creating a fictional world in my mind. I am not a programmer but I do know some computer basics like I can <code>git clone</code>, clear the cache using <code>sync; echo 3 > /proc/sys/vm/drop-caches</code> and I also know how to use Linux (basics to get my things done), Infact I often use ParrotOS which is based on Debian. I have some experience in HTML and CSS also.</p>
 
