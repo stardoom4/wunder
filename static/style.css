@@ -53,6 +53,10 @@
             padding: 16px;
         }
 
+        a {
+            color: #007bff;
+        }
+
         .sidebar {
             background-color: #000;
             padding: 1rem;
