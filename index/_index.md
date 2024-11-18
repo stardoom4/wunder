@@ -1,10 +1,10 @@
 ---
 title: Wunder
-subtitle: Welcome to my Digital Home.
+desc: <a href="wunder.html">Wunder</a> is a Wiki system to records things.
+himg: https://wunder.pages.dev/static/site/home.webp
 created: 2024-04-11
 share: true
 ---
-<figure><img src="static/site/home.webp" alt="Monotone"></figure>
 <strong>Recent Changes</strong>
 <ol>
     <li><strong>View all logs <a href="/logs.html">Here</a></strong></li>
