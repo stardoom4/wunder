@@ -186,3 +186,46 @@
                 margin-bottom: 1rem;
             }
         }
+
+blockquote {
+  padding: .25rem 1rem;
+  background-color: #000011;
+  border-left: .25rem solid #007bff;
+  margin: 0 0 1rem;
+  color: #fff;
+}
+pre {
+  position: relative;
+  overflow: auto;
+  padding: 1rem;
+  background: #000011;
+  font-size: .85rem;
+  line-height: 1.36;
+}
+
+pre > code {
+  overflow: visible;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  font-size: inherit;
+}
+table {
+  display: block;
+  max-width: 100%;
+  margin:1rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+  inline-size: fit-content;
+  overflow-x: auto;
+}
+th, td {
+  padding: 0.4rem;
+  border: 1px solid #007bff;
+}
+
+th {
+  border-color: #007bff;
+  background: transparent;
+  font-weight: bold;
+}
