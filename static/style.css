@@ -194,6 +194,7 @@ blockquote {
   border-left: .25rem solid #007bff;
   margin: 0 0 1rem;
   color: #fff;
+  font-style: oblique;
 }
 pre {
   position: relative;
@@ -229,4 +230,10 @@ th {
   border-color: #007bff;
   background: transparent;
   font-weight: bold;
+}
+p {
+    margin-bottom: 10px;
+}
+br {
+    display: block;
 }
