@@ -1,22 +1,13 @@
 ---
-title: Wunder
-desc: <a href="wunder.html">Wunder</a> is a Wiki system to records things.
+title: Liber
+desc: Forum-shaped notebook inspired by <a href="https://newforum.droqen.com/">Droqen's</a>
 himg: https://wunder.pages.dev/static/site/home.webp
-created: 2024-04-11
-share: true
+date: 2024-04-11
 ---
-<strong>Recent Changes</strong>
-<ol>
-    <li><strong>View all logs <a href="/logs.html">Here</a></strong></li>
-    <li>03-07-2024: Started <a href="exodon.html">World Building</a></li>
-    <li>30-06-2024: Added <a href="https://github.com/hundredrabbits/Themes">100r ecosystem theme</a> support.</li>
-</ol>
-<details>
-    <summary>Online Presence</summary>
-    <a href="https://wunder.pages.dev">Website</a><br>
-    <a href="https://github.com/stardoom4">Github</a><br>
-    <a href="https://letterboxd.com/Celestialentity/">LetterBoxd</a>
-</details>
-<h3>Webring</h3>
-<a href='https://webring.dinhe.net/prev/https://wunder.pages.dev'>Previous</a>
-<a href='https://webring.dinhe.net/next/https://wunder.pages.dev'>Next</a>
+<h2>
+    {{ if .Nav.Child }} {{ if lt ( len .Nav.Child ) 7 }}<ul>
+    {{ range $_, $element := .Nav.Child }}
+    <li><a href="{{ $element.Href }}">{{ $element.Name }}</a></li>
+    {{ end }} {{ end }}</ul>
+    {{ end }}
+</h2>
