@@ -17,7 +17,8 @@
       <div class="main-content">
       <main class="main">
         <h1>{{ index .Meta "title" }}</h1>
-        <p>Posted on: <strong>{{ index .Meta "date" }}</strong>strong<hr></p>
+        <h2>{{ index .Meta "desc" }}</h2>
+        <h3>Posted on: <strong>{{ index .Meta "date" }}</strong></h3><hr>
    {{ .Body }}
       </main>
          <nav class="two-column-navbar" aria-label="Secondary Navigation">
