@@ -14,11 +14,10 @@
     </nav>
     
     <div class="content">
-        <aside class="sidebar">
-          <h2>{{ index .Meta "desc" }}</h2><hr>
-                  </aside>
       <div class="main-content">
       <main class="main">
+        <h1>{{ index .Meta "title" }}</h1>
+        <p>Posted on: <strong>{{ index .Meta "date" }}</strong>strong<hr></p>
    {{ .Body }}
       </main>
          <nav class="two-column-navbar" aria-label="Secondary Navigation">
