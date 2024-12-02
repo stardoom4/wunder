@@ -1,6 +1,6 @@
 ---
 title: Liber
-desc: Forum-shaped notebook inspired by <a href="https://newforum.droqen.com/">Droqen's</a>
+desc: Forum-shaped notebook inspired by <a href="https://newforum.droqen.com/">Droqen</a>
 himg: https://wunder.pages.dev/static/site/home.webp
 date: 2024-04-11
 ---
